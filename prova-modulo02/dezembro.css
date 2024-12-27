@@ -1,0 +1,41 @@
+/* Estilizar o contêiner de dezembro */
+
+.dezembro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/natal2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 30px;
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 100px;
+}
+
+.tabela-dezembro {
+   background-color: rgba(0, 99, 99, 0.432);
+   border-radius: 10px;
+   text-align: center;
+   
+}
+.dezembro-mes {
+    font-size: 1.8em;
+}
+
+.feriado-dezembro p{
+    color:red;
+    padding-top: 10px
+}
+.natal {
+    color: rgb(129, 3, 3);
+}
+
+.natal2 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 21px;
+}
+

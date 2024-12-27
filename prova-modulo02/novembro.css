@@ -1,0 +1,44 @@
+/* Estilizar o contêiner de novembro */
+
+
+.calendario-novembro {
+    background-image: url(imagens/consciencia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.novembro-mes {
+    font-size: 1.8em;
+}
+
+.tabela-novembro {
+    background-color: rgba(94, 51, 2, 0.705);
+    border-radius: 10px;
+}
+.feriados-novembro {
+    padding-top: 20px;
+    color: rgb(15, 211, 136);
+}
+
+.agendamentos-novembro {
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.finado {
+    color: rgb(30, 255, 0);
+}
+
+.proclamaçao {
+    color: rgb(30, 255, 0);
+}
+
+.consciencia {
+    color: rgb(30, 255, 0);
+}

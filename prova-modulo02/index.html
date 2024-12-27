@@ -1,0 +1,154 @@
+<!-- Objetivo: Construir um calendário com 3 meses.
+            Instruções:
+            1 - 3 tabelas: Nas tabelas, recomendamos que construa 3 table para facilitar a organização.
+            2 - Calendário: Construindo os calendários, coloque o mês atual e os próximos 2 meses.
+            3 - Feriados e agendamentos: Não esqueça de adicionar descrição dos feriados nos dias propícios e seus agendamentos de estudos, atividades pessoais, dentre outros.
+
+            OBS: A construção podem ser direcionada para links externos ou internos para facilitar o uso do seu cronograma.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calendário</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="outubro.css">
+        <link rel="stylesheet" href="novembro.css">
+        <link rel="stylesheet" href="dezembro.css">
+    </head>
+    <body>
+        
+        <h1>Calendário Trimestral</h1>
+
+
+        <div class="calendarios">
+            <div class="calendario-outubro"> <!-- Mês de outubro -->
+                <table border="5" class="tabela">
+                    <thead class="outubro-mes"><tr><th colspan="7">OUTUBRO</th></tr></thead>
+                    <thead class="outubro-semana">
+                        <tr>
+                            <th>Domingo</th>
+                            <th>Segunda-feira</th>
+                            <th>Terça-feira</th>
+                            <th>Quarta-feira</th>
+                            <th>Quinta-feira</th>
+                            <th>Sexta-feira</th>
+                            <th>Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody class="outubro-dias">
+                        <tr>
+                            <td>1</td><td>2</td><td>3</td>
+                            <td>4</td><td>5</td><td>6</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>8</td><td>9</td><td>10</td>
+                            <td>11</td><td class="criança"><abbr title="Dia das crianças">12</abbr></td><td>13</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>15</td><td>16</td><td>17</td>
+                            <td>18</td><td>19</td><td>20</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>22</td><td>23</td><td>24</td>
+                            <td>25</td><td>26</td><td>27</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>29</td><td>30</td><td class="bruxa"><abbr title="Dia das bruxas">31</abbr></td>
+                        </tr>
+                    </tbody>
+                </table>
+            <div class="feriados-outubro">
+                <p>12 - dia das crianças</p>
+                <p>31 - dia das bruxas</p>
+                <p>03 - dia de curso na Infinity</p>
+            </div>
+
+            </div>
+            <!-- Novembro -->
+            <div class="calendario-novembro">
+                <table border="5" class="tabela-novembro">
+                    <thead class="novembro-mes">
+                        <tr><th colspan="7">NOVEMBRO</th></tr>
+                    </thead>
+                    <thead class="novembro-semana">
+                        <tr>
+                            <th>Domingo</th>
+                            <th>Segunda-feira</th>
+                            <th>Terça-feira</th>
+                            <th>Quarta-feira</th>
+                            <th>Quinta-feira</th>
+                            <th>Sexta-feira</th>
+                            <th>Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody class="novembro-dias">
+                        <tr>
+                            <td>1</td><td class="finado"><abbr title="Dia dos Finados">2</abbr></td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td> <!-- 1º semana -->
+                        </tr>
+                        <tr>
+                            <td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td> <!-- 2º semana -->
+                        </tr>
+                        <tr>
+                            <td class="proclamaçao"><abbr title="Proclamação da República">15</abbr></td><td>16</td><td>17</td><td>18</td><td>19</td><td class="consciencia"><abbr title="Dia da consciência negra">20</abbr></td><td>21</td> <!-- 3º semana -->
+                        </tr>
+                        <tr>
+                            <td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td> <!-- 4º semana -->
+                        </tr>
+                        <tr><td>29</td><td>30</td><td>31</td>
+                        </tr>
+                    </tbody>
+                </table>
+            <div class="feriados-novembro">
+                <p>2 - Dia dos finados</p>
+                <p>15 - Proclamação da república</p>
+                <p>20 - Dia da Consciência negra</p>
+            </div>
+            </div>
+       
+            <!-- Dezembro -->
+            <div class="dezembro">
+                         <div class="calendario-dezembro">
+                            <table border="5" class="tabela-dezembro">
+                                <thead><tr><th colspan="7" class="dezembro-mes">DEZEMBRO</th></tr></thead>
+                                <thead class="semana-dezembro">
+                                    <tr>
+                                        <th>Domingo</th>
+                                        <th>Segunda-feira</th>
+                                        <th>Terça-feira</th>
+                                        <th>Quarta-feira</th>
+                                        <th>Quinta-feira</th>
+                                        <th>Sexta-feira</th>
+                                        <th>Sábado</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="dias-dezembro">
+                                    <tr>
+                                        <td>01</td><td>02</td><td>03</td><td>04</td><td>05</td><td>06</td><td>07</td>
+                                    </tr>
+                                    <tr>
+                                        <td>08</td><td>09</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td><td>23</td><td>24</td><td class="natal"><abbr title="Natal">25</abbr></td><td>26</td><td>27</td><td>28</td>
+                                    </tr>
+                                    <tr>
+                                        <td>29</td><td>30</td><td>31</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <div class="feriado-dezembro"><p class="natal2">25 - Natal</p></div>
+                         </div>
+            </div>    
+        </div> 
+    </body>
+</html>

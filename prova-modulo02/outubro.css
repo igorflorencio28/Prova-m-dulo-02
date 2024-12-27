@@ -1,0 +1,44 @@
+/* Estilizar o contêiner de outubro */
+
+
+.calendario-outubro {
+    background-image: url(imagens/halloween2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.outubro-mes {
+    font-size: 1.8em;
+}
+
+.tabela {
+    background-color: rgba(94, 51, 2, 0.705);
+    border-radius: 10px;
+}
+
+.feriados-outubro {
+    padding-top: 20px;
+    color: rgb(15, 211, 136);
+}
+.agendamentos-outubro {
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+.criança {
+    color: rgb(30, 255, 0);
+    
+}
+
+.bruxa {
+     color: rgb(30, 255, 0);
+}
+
+abbr {
+    text-decoration: none;
+}
